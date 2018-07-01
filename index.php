@@ -24,9 +24,12 @@ echo $paulo;
 
 //Carrega um usuário, usando um login e uma senha
 
-$usuario=new Usuario();
-$usuario->login("joao","ruti");
-echo $usuario;
+//$usuario=new Usuario();
+//$usuario->login("joao","ruti");
+//echo $usuario;
 
+$aluno=new Usuario("aluno","@lun0");
 
+$aluno->insert();
+echo $aluno;
  ?>
